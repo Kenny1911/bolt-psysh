@@ -12,6 +12,20 @@ What does it do exactly?
 |---|---|
 | `$app` | Instance of Pimple container |
 
+## Install
+
+Before using this extension, you must install `psy/psysh` package:
+
+```bash
+php composer install psy/psysh @stable
+```
+
+Then you can install extension:
+
+```bash
+php app/nut extensions:install kenny1911/bolt-psysh 1.0.0
+```
+
 ## Usage
 
 ```bash
